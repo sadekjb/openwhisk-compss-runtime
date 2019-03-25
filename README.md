@@ -1,5 +1,5 @@
-## Embed COMPSs engine in OpenWhisk action
-We embedded COMPSs installtion within OW specific action. The COMPSs based OW action can be used as master and worker or as master only by specifying remote worker, and the action code will adapt accordingly.  
+## COMPSs based applications executed by COMPSs engine embedded in OpenWhisk action
+We embedded COMPSs installation within OW specific action. The COMPSs based OW action can be used as master and worker or as master only by specifying remote worker, and the action code will adapt accordingly.  
 ### Build COMPSs image:
 	docker build -f <path-to-docker-file>/Dockerfile -t comps /opt/COMPSs
 	docker tag comps <repo-name>/<name>:version
